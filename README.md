@@ -1,11 +1,3 @@
-# vba-challenge
- 02-VBA-Homework
-
-Note: 
-Two files on with VBA_Script and Screenshots and other file includes data and report summary. 
-
-Script will reset and set formating for report summary for each worksheet within the targeted workbook.
-
 Sub stock_summary()
 'Set pointer to first workbook, top-left, for content deletion warning
     Sheets(1).Select
@@ -53,7 +45,7 @@ Sub stock_summary()
         First_Record = True
         Greatest_Stock_Value_Perc_Yr_Inc = 0
         Greatest_Stock_Value_Perc_Yr_Dec = 0
-        Greatest_Stock_Value_Volume = 0
+        Greatest_Stock_Value_Year_Volume = 0
 'Set summary table row to 2nd row (after title)
         Summary_Table_Row = 2
         Year_Open_Price = Cells(2, 3).Value
@@ -134,6 +126,3 @@ Sub stock_summary()
         Range("P" & 4).Value = Greatest_Stock_Value_Year_Volume
     Next
 End Sub
-
-
-
