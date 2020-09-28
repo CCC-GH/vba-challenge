@@ -1,3 +1,4 @@
+'02-VBA-Homework by Carl Coffman
 Sub stock_summary()
 'Set pointer to first workbook, top-left, for content deletion warning
     Sheets(1).Select
