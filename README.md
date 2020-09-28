@@ -1,3 +1,10 @@
+This Repository is for 02-VBA Homwwork
+- Posted below (below "--"), is an Excel VBA script. Execute one time on a workbook and it will pass thru each worksheet-year generating a sumerized report
+    note: Script will clear cells, format cells, and produce summerized report between columns H thru Q for earch year's worksheet
+= Two files within repository: 
+    1. "ccc_02-VBA_ScriptOnly_and_ScreenShot_Results" contains VBA pasted-script (1st tab), requirements, and screenshots (from #2 file) of 2016, 2015, 2016
+    2. "ccc_02-VBA-Scripting_HW_Instructions_Resources_Multiple_year_stock_data" larger file, contains all data, stored script in Developer tab with executed results (screenshot #1 file).
+------------------------------------------
 '02-VBA-Homework by Carl Coffman
 Sub stock_summary()
 'Set pointer to first workbook, top-left, for content deletion warning
