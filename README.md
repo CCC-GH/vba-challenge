@@ -1,9 +1,17 @@
-This Repository is for 02-VBA Homework
-- Posted below (below "--"), is an Excel VBA script. Execute one time on a workbook and it will pass thru each worksheet-year generating a summarized report note: Script will clear cells, format cells, and produce summarized report between columns H thru Q for each year's worksheet = Two files within repository:
-= Two files within repository: 
-    1. "ccc_02-VBA_ScriptOnly_and_ScreenShot_Results" contains VBA pasted-script (1st tab), requirements, and screenshots (from #2 file) of 2016, 2015, 2016
-    2. "ccc_02-VBA-Scripting_HW_Instructions_Resources_Multiple_year_stock_data" larger file, contains all data, stored script in Developer tab with executed results (screenshot #1 file).
-----------------------------------------------------------
+### This Repository is for 02-VBA Homework
+
+#### Fully automated report generation:
+- Posted below, at bottom, is an Excel VBA script.
+- Execute one time on a workbook and it will pass thru each worksheet-year generating a consistent, well-formatted, summarized reports.
+>     Note: Script will prompt user with warning to clear cell-columns H thru Q within workbook's worksheets (for reports)
+
+#### Two Excel files within repository: 
+    File #2 "ccc_02-VBA_ScriptOnly_and_ScreenShot_Results" contains VBA pasted-script (1st tab), requirements, and screenshots (from #2 file) of 2016, 2015, 2014
+    File #3 "ccc_02-VBA-Scripting_HW_Instructions_Resources_Multiple_year_stock_data" larger file, contains all data, stored script in Developer tab with executed results(screenshot in #1 file).
+>     Note: also located in public OneDrive at: https://1drv.ms/u/s!An3R72PXXVw5kxWACkDnKBikjAVs?e=VURfHZ
+  
+#### _VBA Script (copy/paste ready):_
+
 '02-VBA-Homework by Carl Coffman
 Sub stock_summary()
 'Set pointer to first workbook, top-left, for content deletion warning
