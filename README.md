@@ -1,4 +1,4 @@
-This Repository is for 02-VBA Homwwork
+This Repository is for 02-VBA Homework
 - Posted below (below "--"), is an Excel VBA script. Execute one time on a workbook and it will pass thru each worksheet-year generating a sumerized report
     note: Script will clear cells, format cells, and produce summerized report between columns H thru Q for earch year's worksheet
 = Two files within repository: 
